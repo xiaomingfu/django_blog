@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 
 from learning_logs.models import Topic, Entry
-from .forms import TopicForm
+from .forms import TopicForm, EntryForm
 
 
 # Create your views here.
@@ -43,5 +43,20 @@ def new_topic(request):
     return render(request, 'learning_logs/new_topic.html', context)
 
 
-def entry(request):
-    pass
+def new_entry(request, topic_id):
+    """Add a new entry for a particular topic"""
+    topic = Topic.objects.get(id=topic_id)
+
+    if request.method != 'POST':
+        form = EntryForm()
+    else:
+        #POST data submitted;process data.
+        form = EntryForm(data=request.POST)
+        if form.is_valid():
+            new_entry_ = form.save(commit=False)
+            new_entry_.topic = topic
+            new_entry_.save()
+            return HttpResponseRedirect(reverse('learning_logs:topic',
+                                                args=[topic_id]))
+    context={'form': form, 'topic': topic}
+    return render(request, 'learning_logs/new_entry.html', context)
