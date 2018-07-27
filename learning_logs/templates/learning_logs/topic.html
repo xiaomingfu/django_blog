@@ -4,16 +4,18 @@
     <p>Topic: {{ topic }}</p>
     <p>Entries:</p>
     <ul>
-    {% for entry in entries %}
-        <li>
-            <p>{{ entry.date_added|date:'M d, Y H:i'}}</p>
-            <p>{{ entry.text|linebreaks }}</p>
-        </li>
-    {% empty %}
-        <li>
-            There are no entries for this topic yet.
-        </li>
-    {% endfor %}
+        {% for entry in entries %}
+            <li>
+                <p>{{ entry.date_added|date:'M d, Y H:i' }}</p>
+                <p>{{ entry.text|linebreaks }}</p>
+            </li>
+        {% empty %}
+            <li>
+                There are no entries for this topic yet.
+            </li>
+        {% endfor %}
     </ul>
+
+    <a href="{% url 'learning_logs:new_topic' %}">Add a new topic:</a>
 
 {% endblock content %}
