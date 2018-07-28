@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a80046a-4f50-4a8b-b8c8-2ce1d340a7f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_log/settings.py" afterPath="$PROJECT_DIR$/learning_log/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learning_log/wsgi.py" afterPath="$PROJECT_DIR$/learning_log/wsgi.py" />
     </list>
     <ignored path="learning_log2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learning_log/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.814815">
-              <caret line="146" column="41" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.6919918">
+              <caret line="140" column="54" selection-start-line="140" selection-start-column="54" selection-end-line="140" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -70,21 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="placeholder.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learning_log/static/placeholder.txt">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_log/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02918288">
-              <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+            <state vertical-scroll-proportion="-11.111111">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_topic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learning_logs/templates/learning_logs/new_topic.html">
+      <file leaf-file-name="placeholder.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learning_log/static/placeholder.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -158,10 +157,10 @@
         <option value="$PROJECT_DIR$/learning_logs/templates/learning_logs/topics.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/runtime.txt" />
-        <option value="$PROJECT_DIR$/learning_log/settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/learning_log/wsgi.py" />
         <option value="$PROJECT_DIR$/learning_log/static/placeholder.txt" />
+        <option value="$PROJECT_DIR$/learning_log/settings.py" />
       </list>
     </option>
   </component>
@@ -571,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_log/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#647#679#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -725,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning_log/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.814815">
-          <caret line="146" column="41" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -753,8 +734,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning_log/static/placeholder.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02918288">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_log/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning_log/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6919918">
+          <caret line="140" column="54" selection-start-line="140" selection-start-column="54" selection-end-line="140" selection-end-column="54" />
           <folding />
         </state>
       </provider>
